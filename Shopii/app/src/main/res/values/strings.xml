@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Shopii</string>
+    <string name="sort_by">Sort by</string>
+    <string name="filter_by">Filter by</string>
+    <string name="product_image">Product Image</string>
+
+    <string-array name="sort_options">
+        <item>Price: Low to High</item>
+        <item>Price: High to Low</item>
+        <item>Rating: High to Low</item>
+        <item>Popularity</item>
+    </string-array>
+
+    <string-array name="filter_options">
+        <item>All</item>
+        <item>Electronics</item>
+        <item>Clothing</item>
+        <item>Books</item>
+        <item>Home</item>
+        <item>Price: Under $50</item>
+        <item>Price: $50 - $100</item>
+        <item>Price: Over $100</item>
+        <item>Rating: 4+</item>
+    </string-array>
+
+    <string name="api_product_base_url">https://10.0.2.2:7198/api/Product/</string>
+</resources>
