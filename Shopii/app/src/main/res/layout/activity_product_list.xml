@@ -29,6 +29,14 @@
             android:minWidth="48dp"
             android:minHeight="48dp"
             android:prompt="@string/filter_by" />
+
+        <Button
+            android:id="@+id/cart_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cart"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

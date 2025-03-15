@@ -1,16 +1,18 @@
 package com.example.shopii.models;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.UUID;
+import android.util.Log;
 
-public class Product {
+public class Product implements Serializable {
     private UUID id;
     private String name;
     private String description;
     private double price;
     private List<String> imageUrls;
     private String brand;
-    private ProductCategory category;
+    private int category;
     private double rating;
     private int stockQuantity;
 
@@ -26,7 +28,7 @@ public class Product {
         this.price = price;
         this.imageUrls = imageUrls;
         this.brand = brand;
-        this.category = category;
+        this.category = category.getValue();
         this.rating = rating;
         this.stockQuantity = stockQuantity;
     }
@@ -50,8 +52,14 @@ public class Product {
     public String getBrand() { return brand; }
     public void setBrand(String brand) { this.brand = brand; }
 
-    public ProductCategory getCategory() { return category; }
-    public void setCategory(ProductCategory category) { this.category = category; }
+    public ProductCategory getCategory() {
+        Log.d("Product", "Converting category value: " + category + " to enum");
+        return ProductCategory.fromValue(category);
+    }
+
+    public void setCategory(ProductCategory category) {
+        this.category = category.getValue();
+    }
 
     public double getRating() { return rating; }
     public void setRating(double rating) { this.rating = rating; }

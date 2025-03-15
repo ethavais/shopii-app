@@ -1,0 +1,51 @@
+### Yêu cầu 3: Product Details (15%)
+
+#### Task 1: Hiển thị chi tiết sản phẩm
+- **Mô tả**: Hiển thị tất cả thông tin chi tiết của sản phẩm bao gồm mô tả, thông số kỹ thuật và nhiều hình ảnh.
+- **File liên quan**:
+  - `ProductDetailActivity.java`: Cần cập nhật để hiển thị thêm thông số kỹ thuật và nhiều hình ảnh.
+  - `activity_product_detail.xml`: Cần thêm các view để hiển thị thông số kỹ thuật và carousel cho nhiều hình ảnh.
+
+#### Task 2: Thêm sản phẩm vào giỏ hàng
+- **Mô tả**: Cho phép người dùng thêm sản phẩm vào giỏ hàng từ màn hình chi tiết với tùy chọn chọn số lượng.
+- **File liên quan**:
+  - `ProductDetailActivity.java`: Cần thêm logic để xử lý việc thêm sản phẩm vào giỏ hàng.
+  - `activity_product_detail.xml`: Cần thêm nút "Add to Cart" và một số lượng selector (Spinner hoặc EditText).
+
+### Yêu cầu 4: Product Cart (15%)
+
+#### Task 1: Hiển thị tổng quan giỏ hàng
+- **Mô tả**: Hiển thị danh sách sản phẩm đã thêm vào giỏ hàng cùng với hình ảnh, tên, giá mỗi sản phẩm, số lượng đã chọn và tổng giá.
+- **File liên quan**:
+  - `CartActivity.java`: Cần tạo mới để hiển thị danh sách sản phẩm trong giỏ hàng.
+  - `activity_cart.xml`: Cần tạo mới để hiển thị layout của giỏ hàng.
+  - `CartAdapter.java`: Cần tạo mới để quản lý danh sách sản phẩm trong giỏ hàng.
+
+#### Task 2: Quản lý giỏ hàng
+- **Mô tả**: Cho phép người dùng điều chỉnh số lượng sản phẩm, xóa sản phẩm hoặc xóa toàn bộ giỏ hàng.
+- **File liên quan**:
+  - `CartActivity.java`: Cần thêm logic để xử lý việc điều chỉnh số lượng, xóa sản phẩm và xóa toàn bộ giỏ hàng.
+  - `activity_cart.xml`: Cần thêm các nút và controls để thực hiện các thao tác quản lý giỏ hàng.
+
+#### Task 3: Cập nhật tổng giá giỏ hàng
+- **Mô tả**: Cập nhật động tổng giá trị giỏ hàng dựa trên các thay đổi trong giỏ hàng.
+- **File liên quan**:
+  - `CartActivity.java`: Cần thêm logic để tính toán và cập nhật tổng giá trị giỏ hàng.
+  - `activity_cart.xml`: Cần thêm view để hiển thị tổng giá trị giỏ hàng.
+
+### Các task phụ trợ
+
+#### Task 1: Tạo model cho giỏ hàng
+- **Mô tả**: Tạo model để lưu trữ thông tin về sản phẩm trong giỏ hàng.
+- **File liên quan**:
+  - `CartItem.java`: Cần tạo mới để lưu trữ thông tin sản phẩm trong giỏ hàng.
+
+#### Task 2: Tạo repository cho giỏ hàng
+- **Mô tả**: Tạo repository để quản lý dữ liệu giỏ hàng.
+- **File liên quan**:
+  - `CartRepository.java`: Cần tạo mới để quản lý dữ liệu giỏ hàng.
+
+#### Task 3: Tạo service cho giỏ hàng
+- **Mô tả**: Tạo service để xử lý các yêu cầu liên quan đến giỏ hàng.
+- **File liên quan**:
+  - `CartService.java`: Cần tạo mới để xử lý các yêu cầu liên quan đến giỏ hàng.

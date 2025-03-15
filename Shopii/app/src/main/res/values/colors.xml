@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#4CAF50</color>
+
+    <!-- Theme colors for minimalist design -->
+    <color name="background_white">#FFFFFFFF</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider_light">#E0E0E0</color>
+    <color name="accent">#2196F3</color>
+    <color name="ripple_light">#1F000000</color>
 </resources>

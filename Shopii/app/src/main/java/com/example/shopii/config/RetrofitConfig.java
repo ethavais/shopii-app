@@ -1,17 +1,15 @@
 package com.example.shopii.config;
 
-import android.content.Context;
-import com.example.shopii.R;
+import android.annotation.SuppressLint;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import javax.net.ssl.*;
-import java.security.cert.CertificateException;
 
 public class RetrofitConfig {
     private static Retrofit retrofit;
 
-    public static Retrofit getRetrofitInstance(Context context, String endPoint) {
+    public static Retrofit getRetrofitInstance(String endPoint) {
         if (retrofit == null) {
             OkHttpClient okHttpClient = new OkHttpClient.Builder()
                     .sslSocketFactory(getSSLSocketFactory(), getTrustManager())
@@ -38,13 +36,20 @@ public class RetrofitConfig {
         }
     }
 
+    @SuppressLint("CustomX509TrustManager")
     private static X509TrustManager getTrustManager() {
         return new X509TrustManager() {
+            @SuppressLint("TrustAllX509TrustManager")
             @Override
-            public void checkClientTrusted(java.security.cert.X509Certificate[] chain, String authType) throws CertificateException {}
+            public void checkClientTrusted(java.security.cert.X509Certificate[] chain, String authType) {
+                // Không throw CertificateException
+            }
 
+            @SuppressLint("TrustAllX509TrustManager")
             @Override
-            public void checkServerTrusted(java.security.cert.X509Certificate[] chain, String authType) throws CertificateException {}
+            public void checkServerTrusted(java.security.cert.X509Certificate[] chain, String authType) {
+                // Không throw CertificateException
+            }
 
             @Override
             public java.security.cert.X509Certificate[] getAcceptedIssuers() {

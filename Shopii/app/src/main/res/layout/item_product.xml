@@ -3,7 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="7dp"
+    android:background="@drawable/product_item_background"
+    android:layout_margin="4dp">
 
     <ImageView
         android:id="@+id/product_image"

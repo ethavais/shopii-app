@@ -1,5 +1,7 @@
 package com.example.shopii.adapters;
 
+import android.annotation.SuppressLint;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,9 +16,16 @@ import java.util.List;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductViewHolder> {
     private final List<Product> productList;
+    private final OnProductClickListener listener;
 
-    public ProductAdapter(List<Product> productList) {
+    public interface OnProductClickListener {
+        void onProductClick(Product product);
+    }
+
+    public ProductAdapter(List<Product> productList, OnProductClickListener listener) {
         this.productList = productList;
+        this.listener = listener;
+        Log.d("ProductListActivity", "Product list size: " + productList.size());
     }
 
     @NonNull
@@ -26,6 +35,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         return new ProductViewHolder(view);
     }
 
+    @SuppressLint("DefaultLocale")
     @Override
     public void onBindViewHolder(@NonNull ProductViewHolder holder, int position) {
         Product product = productList.get(position);
@@ -33,6 +43,12 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         holder.productDescription.setText(product.getDescription());
         holder.productPrice.setText(String.format("$%.2f", product.getPrice()));
         Picasso.get().load(product.getImageUrls().get(0)).into(holder.productImage);
+        
+        holder.itemView.setOnClickListener(v -> {
+            if (listener != null) {
+                listener.onProductClick(product);
+            }
+        });
     }
 
     @Override
@@ -40,6 +56,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         return productList.size();
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     public void updateList(List<Product> newList) {
         productList.clear();
         productList.addAll(newList);

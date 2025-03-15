@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace APIService.Models
 {
     public class Product

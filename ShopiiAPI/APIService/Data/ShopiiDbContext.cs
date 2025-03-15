@@ -7,7 +7,7 @@ public partial class ShopiiDbContext : DbContext
 {
     private readonly IConfiguration _configuration;
 
-    public ShopiiDbContext()
+    public ShopiiDbContext() 
     {
     }
 

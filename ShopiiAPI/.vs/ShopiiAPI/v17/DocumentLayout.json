@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fff\\sem_8\\prm392\\prj\\shopii-app\\shopiiapi\\apiservice\\data\\shopiidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\data\\shopiidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fff\\sem_8\\prm392\\prj\\shopii-app\\shopiiapi\\apiservice\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fff\\sem_8\\prm392\\prj\\shopii-app\\shopiiapi\\apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fff\\sem_8\\prm392\\prj\\shopii-app\\shopiiapi\\apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fff\\sem_8\\prm392\\prj\\shopii-app\\shopiiapi\\apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1661,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Product.cs",
               "RelativeDocumentMoniker": "APIService\\Models\\Product.cs",
               "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Product.cs",
               "RelativeToolTip": "APIService\\Models\\Product.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAADwvxcAAABnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T15:13:17.75Z",
               "EditorCaption": ""
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Address.cs",
               "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Address.cs",
               "RelativeDocumentMoniker": "APIService\\Models\\Address.cs",
@@ -77,13 +77,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ShopiiDbContext.cs",
               "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Data\\ShopiiDbContext.cs",
               "RelativeDocumentMoniker": "APIService\\Data\\ShopiiDbContext.cs",
               "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Data\\ShopiiDbContext.cs",
               "RelativeToolTip": "APIService\\Data\\ShopiiDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T15:06:47.796Z",
               "EditorCaption": ""
