@@ -24,4 +24,7 @@
     </string-array>
 
     <string name="api_product_base_url">https://10.0.2.2:7198/api/Product/</string>
+
+    <string name="nav_product_list">Navigate to Products</string>
+    <string name="nav_cart">Navigate to Cart</string>
 </resources>

@@ -1,22 +1,26 @@
 package com.example.shopii;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager2.widget.ViewPager2;
+import com.example.shopii.adapters.ImageSliderAdapter;
 import com.example.shopii.models.CartItem;
 import com.example.shopii.models.Product;
 import com.example.shopii.repos.CartRepository;
-import com.squareup.picasso.Picasso;
+import me.relex.circleindicator.CircleIndicator3;
 
 public class ProductDetailActivity extends AppCompatActivity {
 
     private CartRepository cartRepository;
+    private TextView quantityDisplay;
+    private int quantity = 1;
 
+    @SuppressLint("DefaultLocale")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,11 +29,12 @@ public class ProductDetailActivity extends AppCompatActivity {
         // Initialize CartRepository
         cartRepository = new CartRepository(this);
 
-        // Get the passed product
+        // Nhận sản phẩm từ Intent
         Product product = (Product) getIntent().getSerializableExtra("product");
 
         // Initialize views
-        ImageView productImage = findViewById(R.id.detail_product_image);
+        ViewPager2 imageSlider = findViewById(R.id.image_slider);
+        CircleIndicator3 indicator = findViewById(R.id.indicator);
         TextView productName = findViewById(R.id.detail_product_name);
         TextView productBrand = findViewById(R.id.detail_product_brand);
         TextView productPrice = findViewById(R.id.detail_product_price);
@@ -39,24 +44,42 @@ public class ProductDetailActivity extends AppCompatActivity {
 
         // Initialize Add to Cart button and quantity input
         Button addToCartButton = findViewById(R.id.add_to_cart_button);
-        EditText quantityInput = findViewById(R.id.quantity_input);
+        quantityDisplay = findViewById(R.id.quantity_display);
+        TextView decreaseQuantity = findViewById(R.id.decrease_quantity);
+        TextView increaseQuantity = findViewById(R.id.increase_quantity);
 
-        // Set click listener for Add to Cart button
-        addToCartButton.setOnClickListener(v -> {
-            int quantity = Integer.parseInt(quantityInput.getText().toString());
-            if (quantity > 0) {
-                CartItem cartItem = new CartItem(product, quantity);
-                cartRepository.addToCart(cartItem);
-                Toast.makeText(this, "Added to cart", Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(this, "Please enter a valid quantity", Toast.LENGTH_SHORT).show();
+        // Set initial quantity
+        quantityDisplay.setText(String.valueOf(quantity));
+
+        // Set click listeners
+        decreaseQuantity.setOnClickListener(v -> {
+            if (quantity > 1) {
+                quantity--;
+                quantityDisplay.setText(String.valueOf(quantity));
             }
+        });
+
+        increaseQuantity.setOnClickListener(v -> {
+            quantity++;
+            quantityDisplay.setText(String.valueOf(quantity));
+        });
+
+        // Update Add to Cart button click listener
+        addToCartButton.setOnClickListener(v -> {
+            CartItem cartItem = new CartItem(product, quantity);
+            cartRepository.addToCart(cartItem);
+            Toast.makeText(this, "Added to cart", Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(ProductDetailActivity.this, CartActivity.class);
+            startActivity(intent);
         });
 
         // Set product data
         if (product != null) {
             if (product.getImageUrls() != null && !product.getImageUrls().isEmpty()) {
-                Picasso.get().load(product.getImageUrls().get(0)).into(productImage);
+                ImageSliderAdapter adapter = new ImageSliderAdapter(product.getImageUrls());
+                imageSlider.setAdapter(adapter);
+                indicator.setViewPager(imageSlider);
             }
             productName.setText(product.getName());
             productBrand.setText(product.getBrand());

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fff\\sem_8\\prm392\\prj\\shopii-app\\shopiiapi\\apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fff\\sem_8\\prm392\\prj\\shopii-app\\shopiiapi\\apiservice\\data\\shopiidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\data\\shopiidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\data\\shopiidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1661,
+          "DockedWidth": 200,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "APIService\\Models\\Product.cs",
               "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Product.cs",
               "RelativeToolTip": "APIService\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T15:13:17.75Z",
               "EditorCaption": ""
@@ -100,6 +100,16 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T15:15:15.688Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1283,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             }
           ]
         }

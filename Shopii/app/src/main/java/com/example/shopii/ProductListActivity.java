@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /** @noinspection ALL*/
-public class ProductListActivity extends AppCompatActivity implements ProductAdapter.OnProductClickListener {
+public class ProductListActivity extends NavBarActivity implements ProductAdapter.OnProductClickListener {
 
     private ProductAdapter productAdapter;
     private List<Product> productList;

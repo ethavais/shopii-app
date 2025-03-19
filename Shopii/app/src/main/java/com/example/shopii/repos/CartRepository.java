@@ -20,9 +20,22 @@ public class CartRepository {
         this.gson = new Gson();
     }
 
-    public void addToCart(CartItem cartItem) {
+    public void addToCart(CartItem newCartItem) {
         List<CartItem> cartItems = getCartItems();
-        cartItems.add(cartItem);
+        boolean productExists = false;
+
+        for (CartItem cartItem : cartItems) {
+            if (cartItem.getProduct().getId().equals(newCartItem.getProduct().getId())) {
+                cartItem.setQuantity(cartItem.getQuantity() + newCartItem.getQuantity());
+                productExists = true;
+                break;
+            }
+        }
+
+        if (!productExists) {
+            cartItems.add(newCartItem);
+        }
+
         saveCartItems(cartItems);
     }
 
@@ -45,7 +58,7 @@ public class CartRepository {
         sharedPreferences.edit().remove(CART_ITEMS_KEY).apply();
     }
 
-    private void saveCartItems(List<CartItem> cartItems) {
+    public void saveCartItems(List<CartItem> cartItems) {
         String json = gson.toJson(cartItems);
         sharedPreferences.edit().putString(CART_ITEMS_KEY, json).apply();
     }

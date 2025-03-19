@@ -1,6 +1,7 @@
 package com.example.shopii.adapters;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,8 +10,10 @@ import android.widget.TextView;
 import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+import com.squareup.picasso.Picasso;
 
 import com.example.shopii.CartActivity;
+import com.example.shopii.ProductDetailActivity;
 import com.example.shopii.R;
 import com.example.shopii.models.CartItem;
 import java.util.List;
@@ -37,20 +40,34 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
     public void onBindViewHolder(@NonNull CartViewHolder holder, int position) {
         CartItem cartItem = cartItems.get(position);
         holder.productName.setText(cartItem.getProduct().getName());
-        holder.productPrice.setText(String.format("$%.2f", cartItem.getProduct().getPrice()));
         holder.quantity.setText(String.valueOf(cartItem.getQuantity()));
+
+        double totalPrice = cartItem.getProduct().getPrice() * cartItem.getQuantity();
+        holder.productPrice.setText(String.format("$%.2f", totalPrice));
+
+        if (cartItem.getProduct().getImageUrls() != null && !cartItem.getProduct().getImageUrls().isEmpty()) {
+            Picasso.get()
+                .load(cartItem.getProduct().getImageUrls().get(0))
+                .fit()
+                .centerInside()
+                .into(holder.productImage);
+        } else {
+            holder.productImage.setImageResource(R.drawable.placeholder_image);
+        }
 
         holder.increaseQuantity.setOnClickListener(v -> {
             cartItem.setQuantity(cartItem.getQuantity() + 1);
-            holder.quantity.setText(String.valueOf(cartItem.getQuantity()));
+            notifyItemChanged(position);
             cartActivity.updateTotalPrice();
+            cartActivity.saveCartItems();
         });
 
         holder.decreaseQuantity.setOnClickListener(v -> {
             if (cartItem.getQuantity() > 1) {
                 cartItem.setQuantity(cartItem.getQuantity() - 1);
-                holder.quantity.setText(String.valueOf(cartItem.getQuantity()));
+                notifyItemChanged(position);
                 cartActivity.updateTotalPrice();
+                cartActivity.saveCartItems();
             }
         });
 
@@ -58,6 +75,13 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
             cartItems.remove(cartItem);
             notifyDataSetChanged();
             cartActivity.updateTotalPrice();
+            cartActivity.saveCartItems();
+        });
+
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(cartActivity, ProductDetailActivity.class);
+            intent.putExtra("product", cartItem.getProduct());
+            cartActivity.startActivity(intent);
         });
     }
 

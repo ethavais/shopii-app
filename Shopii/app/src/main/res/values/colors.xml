@@ -5,6 +5,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FF0000</color>
     <color name="green">#4CAF50</color>
+    <color name="grey">#FF9E9E9E</color>
 
     <!-- Theme colors for minimalist design -->
     <color name="background_white">#FFFFFFFF</color>
@@ -14,4 +15,5 @@
     <color name="divider_light">#E0E0E0</color>
     <color name="accent">#2196F3</color>
     <color name="ripple_light">#1F000000</color>
+    <color name="blue">#0000FF</color>
 </resources>
