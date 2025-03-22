@@ -22,4 +22,6 @@ public partial class User
     public bool IsActive { get; set; }
 
     public virtual Address? UserAddress { get; set; }
+
+    public virtual ICollection<Payment> Payments { get; set; } 
 }
