@@ -43,6 +43,61 @@ namespace APIService.Migrations
                     b.ToTable("Addresses");
                 });
 
+            modelBuilder.Entity("APIService.Models.CardItem", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("PaymentId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<long>("PaymentOrderCode")
+                        .HasColumnType("bigint");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TotalPrice")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PaymentOrderCode");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("CardItems");
+                });
+
+            modelBuilder.Entity("APIService.Models.Payment", b =>
+                {
+                    b.Property<long>("OrderCode")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("OrderCode"));
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("OrderCode");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Payments");
+                });
+
             modelBuilder.Entity("APIService.Models.Product", b =>
                 {
                     b.Property<Guid>("Id")
@@ -137,6 +192,34 @@ namespace APIService.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("APIService.Models.CardItem", b =>
+                {
+                    b.HasOne("APIService.Models.Payment", "Payment")
+                        .WithMany("CardItem")
+                        .HasForeignKey("PaymentOrderCode")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("APIService.Models.Product", "Product")
+                        .WithMany("CardItems")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Payment");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("APIService.Models.Payment", b =>
+                {
+                    b.HasOne("APIService.Models.User", null)
+                        .WithMany("Payments")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("APIService.Models.User", b =>
                 {
                     b.HasOne("APIService.Models.Address", "UserAddress")
@@ -150,6 +233,21 @@ namespace APIService.Migrations
             modelBuilder.Entity("APIService.Models.Address", b =>
                 {
                     b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("APIService.Models.Payment", b =>
+                {
+                    b.Navigation("CardItem");
+                });
+
+            modelBuilder.Entity("APIService.Models.Product", b =>
+                {
+                    b.Navigation("CardItems");
+                });
+
+            modelBuilder.Entity("APIService.Models.User", b =>
+                {
+                    b.Navigation("Payments");
                 });
 #pragma warning restore 612, 618
         }

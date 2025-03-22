@@ -22,6 +22,8 @@ public partial class ShopiiDbContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     public virtual DbSet<Product> Products { get; set; }
+    public virtual DbSet<Payment> Payments { get; set; }
+    public virtual DbSet<CardItem> CardItems { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

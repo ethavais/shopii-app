@@ -12,6 +12,7 @@ namespace APIService.Models
         public double Rating { get; set; }
         public int StockQuantity { get; set; }
 
+        public ICollection<CardItem> CardItems { get; set; }
         public Product()
         {
             Id = Guid.NewGuid();
