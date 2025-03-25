@@ -23,4 +23,12 @@
         android:contentDescription="@string/nav_cart"
         android:drawableTop="@drawable/ic_cart" />
 
+    <Button
+        android:id="@+id/nav_profile"
+        style="@style/MinimalButtonStyle"
+        android:layout_height="46dp"
+        android:background="@drawable/button_selector"
+        android:contentDescription="@string/nav_profile"
+        android:drawableTop="@drawable/ic_profile" />
+
 </LinearLayout> 

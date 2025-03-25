@@ -13,6 +13,7 @@ import com.example.shopii.repos.UserRepository;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import com.example.shopii.models.user.User;
+import com.example.shopii.utils.SharedPreferencesManager;
 
 public class SignInActivity extends AppCompatActivity {
 
@@ -62,11 +63,22 @@ public class SignInActivity extends AppCompatActivity {
                     
                     if (user != null) {
                         Log.i("SignInActivity", "User logged in successfully: " + user.getEmail());
+                        // Lưu thông tin đăng nhập vào SharedPreferences
+                        SharedPreferencesManager prefsManager = new SharedPreferencesManager(this);
+                        prefsManager.saveUserLoginStatus(user.getEmail(), user.getId().toString(), true);
+                        
                         // Navigate to main activity with user object
                         Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(SignInActivity.this, ProductListActivity.class);
+                        startActivity(intent);
+                        finish();
                     } else {
                         Log.w("SignInActivity", "Login failed for email: " + email);
-                        Toast.makeText(this, "Invalid credentials", Toast.LENGTH_SHORT).show();
+                        if (!userRepository.isAccountInactive(email)) {
+                            Toast.makeText(this, "Account is Unactive", Toast.LENGTH_SHORT).show();
+                        } else {
+                            Toast.makeText(this, "Invalid credentials", Toast.LENGTH_SHORT).show();
+                        }
                     }
                 });
             });

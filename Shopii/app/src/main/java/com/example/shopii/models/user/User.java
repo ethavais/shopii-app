@@ -17,7 +17,7 @@ public class User {
     public User() {
         this.id = UUID.randomUUID();
         this.createdAt = new Date();
-        this.isActive = true;
+        this.isActive = false;
     }
 
     public User(String username, String email, String passwordHash) {
@@ -42,12 +42,6 @@ public class User {
 
     public String getPhoneNumber() { return phoneNumber; }
     public void setPhoneNumber(String phoneNumber) { this.phoneNumber = phoneNumber; }
-
-    public Address getUserAddress() { return userAddress; }
-    public void setUserAddress(Address userAddress) { this.userAddress = userAddress; }
-
-    public Date getCreatedAt() { return createdAt; }
-    public void setCreatedAt(Date createdAt) { this.createdAt = createdAt; }
 
     public boolean isActive() { return isActive; }
     public void setActive(boolean active) { isActive = active; }
