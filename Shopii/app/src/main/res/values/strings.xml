@@ -27,4 +27,5 @@
 
     <string name="nav_product_list">Navigate to Products</string>
     <string name="nav_cart">Navigate to Cart</string>
+    <string name="nav_profile">Hồ sơ</string>
 </resources>

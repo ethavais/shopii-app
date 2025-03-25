@@ -58,6 +58,10 @@
 
         <activity android:name=".NavBarActivity" />
 
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+
 
         
     </application>

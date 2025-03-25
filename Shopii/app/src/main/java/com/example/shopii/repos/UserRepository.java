@@ -61,13 +61,19 @@ public class UserRepository {
                 pstmt.setString(2, hashedPassword);
                 try (ResultSet rs = pstmt.executeQuery()) {
                     if (rs.next()) {
+                        boolean isActive = rs.getBoolean("isActive");
+                        if (!isActive) {
+                            Log.i(TAG, "Login failed - Account is inactive: " + email);
+                            return null;
+                        }
+
                         User user = new User();
                         user.setId(UUID.fromString(rs.getString("id")));
                         user.setUsername(rs.getString("username"));
                         user.setEmail(rs.getString("email"));
                         user.setPasswordHash(rs.getString("passwordHash"));
                         user.setPhoneNumber(rs.getString("phoneNumber"));
-                        user.setActive(rs.getBoolean("isActive"));
+                        user.setActive(isActive);
                         Log.i(TAG, "Login successful - User: " + user.getEmail());
                         return user;
                     }
@@ -95,6 +101,73 @@ public class UserRepository {
         } catch (NoSuchAlgorithmException e) {
             Log.e(TAG, "Error hashing password: " + e.getMessage());
             return null;
+        }
+    }
+
+    public boolean isAccountInactive(String email) {
+        Connection conn = null;
+        try {
+            conn = dbHelper.getConnection();
+            if (conn == null || conn.isClosed()) {
+                Log.e(TAG, "No valid connection");
+                return false;
+            }
+            
+            String sql = "SELECT isActive FROM Users WHERE email = ?";
+            try (var pstmt = conn.prepareStatement(sql)) {
+                pstmt.setString(1, email);
+                try (ResultSet rs = pstmt.executeQuery()) {
+                    if (rs.next()) {
+                        return !rs.getBoolean("isActive");
+                    }
+                    return false;
+                }
+            }
+        } catch (SQLException e) {
+            Log.e(TAG, "SQL Error [" + e.getErrorCode() + "]: " + e.getMessage());
+            return false;
+        } finally {
+            dbHelper.closeConnection(conn);
+        }
+    }
+
+    /**
+     * Lấy thông tin người dùng theo email
+     * @param email Email của người dùng cần tìm
+     * @return User nếu tìm thấy, null nếu không tìm thấy
+     */
+    public User getUserByEmail(String email) {
+        Connection conn = null;
+        try {
+            conn = dbHelper.getConnection();
+            if (conn == null || conn.isClosed()) {
+                Log.e(TAG, "No valid connection");
+                return null;
+            }
+            
+            String sql = "SELECT * FROM Users WHERE email = ?";
+            try (var pstmt = conn.prepareStatement(sql)) {
+                pstmt.setString(1, email);
+                try (ResultSet rs = pstmt.executeQuery()) {
+                    if (rs.next()) {
+                        User user = new User();
+                        user.setId(UUID.fromString(rs.getString("id")));
+                        user.setUsername(rs.getString("username"));
+                        user.setEmail(rs.getString("email"));
+                        user.setPasswordHash(rs.getString("passwordHash"));
+                        user.setPhoneNumber(rs.getString("phoneNumber"));
+                        user.setActive(rs.getBoolean("isActive"));
+                        Log.i(TAG, "User fetched successfully: " + user.getEmail());
+                        return user;
+                    }
+                    return null;
+                }
+            }
+        } catch (SQLException e) {
+            Log.e(TAG, "SQL Error [" + e.getErrorCode() + "]: " + e.getMessage());
+            return null;
+        } finally {
+            dbHelper.closeConnection(conn);
         }
     }
 }
