@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatShopiiAdmin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e5b1a18f6f94eca8ee28cf925ef43fd3bea0a99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed1efaab5191aecb706b03d0728a3b2b5dd49844")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatShopiiAdmin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatShopiiAdmin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

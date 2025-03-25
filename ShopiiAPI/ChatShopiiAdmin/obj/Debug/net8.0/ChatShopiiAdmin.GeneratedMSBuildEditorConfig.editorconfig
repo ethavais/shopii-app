@@ -9,39 +9,39 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChatShopiiAdmin
 build_property.RootNamespace = ChatShopiiAdmin
-build_property.ProjectDir = D:\FPT\PRM\shopii-app\ShopiiAPI\ChatShopiiAdmin\
+build_property.ProjectDir = D:\FFF\Sem_8\PRM392\prj\shopii-app\ShopiiAPI\ChatShopiiAdmin\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\FPT\PRM\shopii-app\ShopiiAPI\ChatShopiiAdmin
+build_property.MSBuildProjectDirectory = D:\FFF\Sem_8\PRM392\prj\shopii-app\ShopiiAPI\ChatShopiiAdmin
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/FPT/PRM/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Error.cshtml]
+[D:/FFF/Sem_8/PRM392/prj/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT/PRM/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Index.cshtml]
+[D:/FFF/Sem_8/PRM392/prj/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT/PRM/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Privacy.cshtml]
+[D:/FFF/Sem_8/PRM392/prj/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT/PRM/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FFF/Sem_8/PRM392/prj/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT/PRM/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/_ViewImports.cshtml]
+[D:/FFF/Sem_8/PRM392/prj/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT/PRM/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/_ViewStart.cshtml]
+[D:/FFF/Sem_8/PRM392/prj/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FPT/PRM/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Shared/_Layout.cshtml]
+[D:/FFF/Sem_8/PRM392/prj/shopii-app/ShopiiAPI/ChatShopiiAdmin/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-24fq25957e

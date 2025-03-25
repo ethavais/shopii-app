@@ -1,128 +1,128 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\",
+  "WorkspaceRootPath": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fff\\sem_8\\prm392\\prj\\shopii-app\\shopiiapi\\apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\services\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\services\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\services\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\chatshopiiadmin\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\chatshopiiadmin\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|solutionrelative:chatshopiiadmin\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\services\\chatlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\services\\chatlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\services\\chatlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\chatshopiiadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\chatshopiiadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|solutionrelative:chatshopiiadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\chatshopiiadmin\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\chatshopiiadmin\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|solutionrelative:chatshopiiadmin\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\services\\firebaseconfigsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\services\\firebaseconfigsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\services\\firebaseconfigsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\services\\chatserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\services\\chatserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\services\\chatserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\migrations\\20250321150639_addpaymentmodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\migrations\\20250321150639_addpaymentmodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\migrations\\20250321150639_addpaymentmodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Winnn\\AppData\\Local\\SourceServer\\798248207d60e948b0c6f69f0736303f6472e55c47ea11892fc2487de3c050d3\\src\\libraries\\Microsoft.Extensions.DependencyInjection.Abstractions\\src\\ServiceProviderServiceExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\chatshopiiadmin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\chatshopiiadmin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|solutionrelative:chatshopiiadmin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\chatshopiiadmin\\chatshopiiadmin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\chatshopiiadmin\\chatshopiiadmin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|solutionrelative:chatshopiiadmin\\chatshopiiadmin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\chatshopiiadmin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\chatshopiiadmin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|solutionrelative:chatshopiiadmin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\chatshopiiadmin\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\chatshopiiadmin\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{28DAFC67-F340-4834-A410-173778350C3F}|ChatShopiiAdmin\\ChatShopiiAdmin.csproj|solutionrelative:chatshopiiadmin\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\data\\shopiidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\data\\shopiidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\data\\shopiidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\models\\carditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\carditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\carditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\migrations\\20250321150639_addpaymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\migrations\\20250321150639_addpaymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\migrations\\20250321150639_addpaymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|d:\\fpt\\prm\\shopii-app\\shopiiapi\\apiservice\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\apiservice\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B9AA9B6C-E8BE-48B5-B35B-C3E96CEEE312}|APIService\\APIService.csproj|solutionrelative:apiservice\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -133,8 +133,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:282565878:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -175,35 +179,35 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ChatListener.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatListener.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatListener.cs",
               "RelativeDocumentMoniker": "APIService\\Services\\ChatListener.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatListener.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatListener.cs",
               "RelativeToolTip": "APIService\\Services\\ChatListener.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwBsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:35:22.317Z"
+              "WhenOpened": "2025-03-21T08:35:22.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "libman.json",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\libman.json",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\libman.json",
               "RelativeDocumentMoniker": "APIService\\libman.json",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\libman.json",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\libman.json",
               "RelativeToolTip": "APIService\\libman.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-22T14:32:21.954Z"
+              "WhenOpened": "2025-03-22T14:32:21.954Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Program.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Program.cs",
               "RelativeDocumentMoniker": "APIService\\Program.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Program.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Program.cs",
               "RelativeToolTip": "APIService\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAqwEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T15:15:15.688Z",
               "EditorCaption": ""
@@ -212,121 +216,121 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Pages\\Index.cshtml.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "ChatShopiiAdmin\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "ChatShopiiAdmin\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:39:03.04Z"
+              "WhenOpened": "2025-03-22T07:39:03.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "chat.js",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\wwwroot\\js\\chat.js",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\wwwroot\\js\\chat.js",
               "RelativeDocumentMoniker": "ChatShopiiAdmin\\wwwroot\\js\\chat.js",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\wwwroot\\js\\chat.js",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\wwwroot\\js\\chat.js",
               "RelativeToolTip": "ChatShopiiAdmin\\wwwroot\\js\\chat.js",
-              "ViewState": "AgIAADEAAAAAAAAAAAA1wMYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-22T09:09:01.274Z"
+              "WhenOpened": "2025-03-22T09:09:01.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "20250321150639_addpaymentmodel.Designer.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Migrations\\20250321150639_addpaymentmodel.Designer.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Migrations\\20250321150639_addpaymentmodel.Designer.cs",
               "RelativeDocumentMoniker": "APIService\\Migrations\\20250321150639_addpaymentmodel.Designer.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Migrations\\20250321150639_addpaymentmodel.Designer.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Migrations\\20250321150639_addpaymentmodel.Designer.cs",
               "RelativeToolTip": "APIService\\Migrations\\20250321150639_addpaymentmodel.Designer.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T14:45:56.247Z"
+              "WhenOpened": "2025-03-22T14:45:56.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ChatHub.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatHub.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatHub.cs",
               "RelativeDocumentMoniker": "APIService\\Services\\ChatHub.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatHub.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatHub.cs",
               "RelativeToolTip": "APIService\\Services\\ChatHub.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:56:30.564Z"
+              "WhenOpened": "2025-03-21T08:56:30.564Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "FirebaseConfigSetup.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\FirebaseConfigSetup.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\FirebaseConfigSetup.cs",
               "RelativeDocumentMoniker": "APIService\\Services\\FirebaseConfigSetup.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\FirebaseConfigSetup.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\FirebaseConfigSetup.cs",
               "RelativeToolTip": "APIService\\Services\\FirebaseConfigSetup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:20:07.104Z"
+              "WhenOpened": "2025-03-21T08:20:07.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Program.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Program.cs",
               "RelativeDocumentMoniker": "ChatShopiiAdmin\\Program.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Program.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Program.cs",
               "RelativeToolTip": "ChatShopiiAdmin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:42:06.413Z"
+              "WhenOpened": "2025-03-22T07:42:06.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ChatController.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\ChatController.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "APIService\\Controllers\\ChatController.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\ChatController.cs",
               "RelativeToolTip": "APIService\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAIwFEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:34:37.16Z"
+              "WhenOpened": "2025-03-21T08:34:37.16Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "APIService\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Properties\\launchSettings.json",
               "RelativeToolTip": "APIService\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-21T15:19:38.596Z"
+              "WhenOpened": "2025-03-21T15:19:38.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ChatSerivce.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatSerivce.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatSerivce.cs",
               "RelativeDocumentMoniker": "APIService\\Services\\ChatSerivce.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatSerivce.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\ChatSerivce.cs",
               "RelativeToolTip": "APIService\\Services\\ChatSerivce.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwCwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:48:07.873Z"
+              "WhenOpened": "2025-03-22T07:48:07.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "ChatMessage.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\ChatMessage.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\ChatMessage.cs",
               "RelativeDocumentMoniker": "APIService\\Models\\ChatMessage.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\ChatMessage.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\ChatMessage.cs",
               "RelativeToolTip": "APIService\\Models\\ChatMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:26:40.818Z"
+              "WhenOpened": "2025-03-21T08:26:40.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -336,211 +340,212 @@
               "ToolTip": "C:\\Users\\Winnn\\AppData\\Local\\SourceServer\\798248207d60e948b0c6f69f0736303f6472e55c47ea11892fc2487de3c050d3\\src\\libraries\\Microsoft.Extensions.DependencyInjection.Abstractions\\src\\ServiceProviderServiceExtensions.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAASwC8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T14:36:33.866Z"
+              "WhenOpened": "2025-03-22T14:36:33.866Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ChatShopiiAdmin\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Properties\\launchSettings.json",
               "RelativeToolTip": "ChatShopiiAdmin\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-22T14:29:52.8Z"
+              "WhenOpened": "2025-03-22T14:29:52.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Pages\\Index.cshtml",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "ChatShopiiAdmin\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\Pages\\Index.cshtml",
               "RelativeToolTip": "ChatShopiiAdmin\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAKUBAAAAAAAAAAAmwL0BAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T07:09:06.964Z"
+              "WhenOpened": "2025-03-22T07:09:06.964Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "ChatShopiiAdmin.csproj",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\ChatShopiiAdmin.csproj",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\ChatShopiiAdmin.csproj",
               "RelativeDocumentMoniker": "ChatShopiiAdmin\\ChatShopiiAdmin.csproj",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\ChatShopiiAdmin.csproj",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\ChatShopiiAdmin.csproj",
               "RelativeToolTip": "ChatShopiiAdmin\\ChatShopiiAdmin.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-22T14:29:50.165Z"
+              "WhenOpened": "2025-03-22T14:29:50.165Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "site.js",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "ChatShopiiAdmin\\wwwroot\\js\\site.js",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\ChatShopiiAdmin\\wwwroot\\js\\site.js",
               "RelativeToolTip": "ChatShopiiAdmin\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-22T09:05:16.304Z"
+              "WhenOpened": "2025-03-22T09:05:16.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "APIService.csproj",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\APIService.csproj",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\APIService.csproj",
               "RelativeDocumentMoniker": "APIService\\APIService.csproj",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\APIService.csproj",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\APIService.csproj",
               "RelativeToolTip": "APIService\\APIService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-21T09:43:19.101Z"
+              "WhenOpened": "2025-03-21T09:43:19.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\ProductService.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "APIService\\Services\\ProductService.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\ProductService.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\ProductService.cs",
               "RelativeToolTip": "APIService\\Services\\ProductService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:49:16.215Z"
+              "WhenOpened": "2025-03-21T14:49:16.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "APIService\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\ProductController.cs",
               "RelativeToolTip": "APIService\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T07:45:29.838Z"
+              "WhenOpened": "2025-03-22T07:45:29.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "ShopiiDbContext.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Data\\ShopiiDbContext.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Data\\ShopiiDbContext.cs",
               "RelativeDocumentMoniker": "APIService\\Data\\ShopiiDbContext.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Data\\ShopiiDbContext.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Data\\ShopiiDbContext.cs",
               "RelativeToolTip": "APIService\\Data\\ShopiiDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:06:47.796Z"
+              "WhenOpened": "2025-03-05T15:06:47.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\User.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\User.cs",
               "RelativeDocumentMoniker": "APIService\\Models\\User.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\User.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\User.cs",
               "RelativeToolTip": "APIService\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:19:21.614Z"
+              "WhenOpened": "2025-03-21T08:19:21.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Address.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\Address.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Address.cs",
               "RelativeDocumentMoniker": "APIService\\Models\\Address.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\Address.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Address.cs",
               "RelativeToolTip": "APIService\\Models\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:06:38.337Z"
+              "WhenOpened": "2025-03-05T15:06:38.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\Product.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Product.cs",
               "RelativeDocumentMoniker": "APIService\\Models\\Product.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\Product.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Product.cs",
               "RelativeToolTip": "APIService\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:13:17.75Z"
+              "WhenOpened": "2025-03-05T15:13:17.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "PaymentService.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\PaymentService.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "APIService\\Services\\PaymentService.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Services\\PaymentService.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Services\\PaymentService.cs",
               "RelativeToolTip": "APIService\\Services\\PaymentService.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAswJwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T13:48:17.636Z"
+              "WhenOpened": "2025-03-21T13:48:17.636Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\Payment.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "APIService\\Models\\Payment.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\Payment.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\Payment.cs",
               "RelativeToolTip": "APIService\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:36:52.819Z"
+              "WhenOpened": "2025-03-21T14:36:52.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "CardItem.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\CardItem.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\CardItem.cs",
               "RelativeDocumentMoniker": "APIService\\Models\\CardItem.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Models\\CardItem.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Models\\CardItem.cs",
               "RelativeToolTip": "APIService\\Models\\CardItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:06:29.806Z"
+              "WhenOpened": "2025-03-21T15:06:29.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "20250321150639_addpaymentmodel.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Migrations\\20250321150639_addpaymentmodel.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Migrations\\20250321150639_addpaymentmodel.cs",
               "RelativeDocumentMoniker": "APIService\\Migrations\\20250321150639_addpaymentmodel.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Migrations\\20250321150639_addpaymentmodel.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Migrations\\20250321150639_addpaymentmodel.cs",
               "RelativeToolTip": "APIService\\Migrations\\20250321150639_addpaymentmodel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:06:39.344Z"
+              "WhenOpened": "2025-03-21T15:06:39.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\PaymentController.cs",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "APIService\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "APIService\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:54:14.93Z"
+              "WhenOpened": "2025-03-21T14:54:14.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\appsettings.json",
+              "DocumentMoniker": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\appsettings.json",
               "RelativeDocumentMoniker": "APIService\\appsettings.json",
-              "ToolTip": "D:\\FPT\\PRM\\shopii-app\\ShopiiAPI\\APIService\\appsettings.json",
+              "ToolTip": "D:\\FFF\\Sem_8\\PRM392\\prj\\shopii-app\\ShopiiAPI\\APIService\\appsettings.json",
               "RelativeToolTip": "APIService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-05T15:04:33.443Z"
+              "WhenOpened": "2025-03-05T15:04:33.443Z",
+              "EditorCaption": ""
             }
           ]
         },
